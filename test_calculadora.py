@@ -23,6 +23,10 @@ class CalculadoraTest(unittest.TestCase):
         calc = Calculadora
         self.assertEqual(calc.sub(8,4), 4)
         
+    def teste_subtrai_20_e_10(self):
+        calc = Calculadora
+        self.assertEqual(calc.sub(20,10), 10)    
+        
     def teste_multiplica_dois_numeros(self):
         calc = Calculadora
         self.assertEqual(calc.mult(8,4), 32)
