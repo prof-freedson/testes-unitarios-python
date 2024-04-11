@@ -1,0 +1,5 @@
+# Ignorando uma pasta
+__pycache__
+
+# Ignorando um arquivo
+instruções.txt
